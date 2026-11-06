@@ -1,0 +1,3 @@
+# Local-only worker secrets. Copy to `.dev.vars` (gitignored) for webhook testing.
+# Never commit real credentials; production values belong in Cloudflare secrets.
+PSP_WEBHOOK_SECRET=dev-only-change-me
